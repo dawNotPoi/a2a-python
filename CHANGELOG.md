@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.1.4](https://github.com/a2aproject/a2a-python/compare/v1.1.3...v1.1.4) (2026-08-27)
+
+
+### Features
+
+* **itk:** register itk-python-v10-agent as a uv workspace member and update dependency version markers ([#1203](https://github.com/a2aproject/a2a-python/issues/1203)) ([6eee895](https://github.com/a2aproject/a2a-python/commit/6eee8956fa0e3d6378e4a61b52cf674d05b81229))
+* **itk:** use shared scenarios ([#1201](https://github.com/a2aproject/a2a-python/issues/1201)) ([b4a0b21](https://github.com/a2aproject/a2a-python/commit/b4a0b212df4bbe44bc1d41a6165037f77dd7a993))
+
+
+### Bug Fixes
+
+* make event queue sink removal idempotent ([#1134](https://github.com/a2aproject/a2a-python/issues/1134)) ([58c72c6](https://github.com/a2aproject/a2a-python/commit/58c72c646deab1ff3a1d239bda52a09a48f3a821))
+* owner-scope cancel/subscribe and write terminal state on cancel ([#1159](https://github.com/a2aproject/a2a-python/issues/1159), [#1170](https://github.com/a2aproject/a2a-python/issues/1170)) ([#1172](https://github.com/a2aproject/a2a-python/issues/1172)) ([ddbf853](https://github.com/a2aproject/a2a-python/commit/ddbf853d692ea207dad2be610e675298e0365511))
+* prevent first-owner write loss in in-memory stores ([#1194](https://github.com/a2aproject/a2a-python/issues/1194)) ([bcc489c](https://github.com/a2aproject/a2a-python/commit/bcc489c4f19f0fd5898cc8c4dac0ef54ae7b4de7))
+* **server:** let subscriber taps evict on full instead of wedging dispatch ([#1137](https://github.com/a2aproject/a2a-python/issues/1137)) ([0c2126f](https://github.com/a2aproject/a2a-python/commit/0c2126fbf1e2b418872181ce2ae200f972b4c202))
+* **server:** warn when queue_manager is ignored in DefaultRequestHandlerV2 ([#1153](https://github.com/a2aproject/a2a-python/issues/1153)) ([08fd223](https://github.com/a2aproject/a2a-python/commit/08fd223882749a90c498ce835de9ac136eca375e))
+
 ## [1.1.3](https://github.com/a2aproject/a2a-python/compare/v1.1.2...v1.1.3) (2026-08-18)
 
 
